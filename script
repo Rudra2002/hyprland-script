@@ -47,6 +47,6 @@ echo "3"
 echo "2"
 echo "1"
 sudo systemctl enable sddm.service
-cp _hyprland.desktop /usr/share/wayland-sessions/_hyprland.desktop
-mv /usr/share/wayland-sessions/_hyprland.desktop /usr/share/wayland-sessions/hyprland.desktop
+sudo mkdir /usr/share/wayland-sessions/
+sudo cp _hyprland.desktop /usr/share/wayland-sessions/hyprland.desktop
 echo "sddm done"
