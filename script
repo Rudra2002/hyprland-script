@@ -1,0 +1,19 @@
+#!/bin/sh
+yay -S hyprland-nvidia-git micro nerd-fonts-complete-starship wofi dunst jq eww-wayland swayidle swaylock-effects-git swaylockd sway-audio-idle-inhibit-git bc pamixer light-git papirus-icon-theme playerctl cava kitty xdg-desktop-portal-wlr grim slurp wl-clipboard socat swappy cliphist hyprpicker-git nm-connection-editor dictd wl-clip-persist-git blueberry sddm nvidia-dkms
+
+git clone https://github.com/AmadeusWM/dotfiles-hyprland
+cd dotfiles-hyprland/
+cp -r ./* ~/.config/hypr
+cd ..
+git clone https://github.com/Rudra2002/hyprland-script
+cd hyprland-script/
+cp -r __hyprland.conf ~/.config/hypr/_hyprland.conf 
+mv ~/.config/hypr/__hyprland.conf ~/.config/hypr/hyprland.conf
+rm ~/.config/hypr/_hyprland.conf
+
+cp wrappedhl /usr/local/bin/wrappedhl
+sudo chmod +x wrappedhl
+sudo chmod +u wrappedhl
+
+cp _hyprland.desktop /usr/share/wayland-sessions/_hyprland.desktop
+mv /usr/share/wayland-sessions/_hyprland.desktop /usr/share/wayland-sessions/hyprland.desktop
