@@ -1,5 +1,5 @@
 #!/bin/sh
-yay -S hyprland-nvidia-git micro nerd-fonts-complete-starship wofi dunst jq eww-wayland swayidle swaylock-effects-git swaylockd sway-audio-idle-inhibit-git bc pamixer light-git papirus-icon-theme playerctl cava kitty xdg-desktop-portal-wlr grim slurp wl-clipboard socat swappy cliphist hyprpicker-git nm-connection-editor dictd wl-clip-persist-git blueberry sddm be 
+yay -S hyprland-nvidia-git micro nerd-fonts-complete-starship wofi dunst jq eww-wayland swayidle swaylock-effects-git swaylockd sway-audio-idle-inhibit-git bc pamixer light-git papirus-icon-theme playerctl cava kitty xdg-desktop-portal-wlr grim slurp wl-clipboard socat swappy cliphist hyprpicker-git nm-connection-editor dictd wl-clip-persist-git blueberry sddm 
 
 
 
