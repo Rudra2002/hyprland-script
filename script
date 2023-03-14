@@ -24,7 +24,7 @@ echo "1"
 cd ..
 git clone https://github.com/Rudra2002/hyprland-script
 cd hyprland-script/
-cp -r __hyprland.conf ~/.config/hypr/_hyprland.conf 
+cp -r __hyprland.conf ~/.config/hypr/__hyprland.conf 
 mv ~/.config/hypr/__hyprland.conf ~/.config/hypr/hyprland.conf
 rm ~/.config/hypr/_hyprland.conf
 
